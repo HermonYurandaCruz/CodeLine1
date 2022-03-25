@@ -6,4 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".TelaLogin">
 
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/ic_baseline_menu_book_24"
+        />
+
+    <EditText
+        android:id="@+id/Et_email"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:hint="E-mail:"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="80dp" />
+
+    <EditText
+        android:id="@+id/Et_password"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Et_email"
+       android:hint="Password:"
+       android:inputType="textPassword"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="140dp"
+        android:layout_height="25dp"
+        android:text="Recuperar senha..."
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Et_password"
+        android:layout_marginEnd="80dp"
+        android:layout_marginTop="10dp"
+
+
+
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        style="@style/botaoInicio"
+        android:layout_width="170dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        android:text="Iniciar Seccao"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Et_password"
+        />
+
+    <ImageView
+        android:id="@+id/email"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="@id/Et_email"
+        android:layout_marginStart="210dp"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:layout_marginTop="92dp"
+        android:src="@drawable/ic_email"
+        />
+
+    <ImageView
+        android:id="@+id/password"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:layout_constraintStart_toStartOf="@id/Et_password"
+        android:layout_marginStart="210dp"
+        app:layout_constraintTop_toBottomOf="@id/email"
+        android:layout_marginTop="55dp"
+        android:src="@drawable/ic_chave"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

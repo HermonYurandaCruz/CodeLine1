@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaCadastro">
+
+
+    <TextView
+        android:id="@+id/Tv_Novo_cadastro"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Cadastro"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/Et_Nome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Et_Nome"
+        style="@style/caixatextos"
+        android:drawableRight="@drawable/ic_person"
+        android:hint="Nome: "
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/Et_DataNascimento"
+        app:layout_constraintTop_toBottomOf="@id/Tv_Novo_cadastro"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:id="@+id/Et_DataNascimento"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_Nome"
+        android:hint="Data de Nacimento"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="date"
+        android:drawableRight="@drawable/ic_calendar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/Et_Morada"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_DataNascimento"
+        android:hint="Morada"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="text"
+        android:drawableRight="@drawable/ic_map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <EditText
+        android:id="@+id/Et_Contacto"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_Morada"
+        android:hint="Contacto"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:drawableRight="@drawable/ic_contact"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+    <EditText
+        android:id="@+id/Et_NovoEmail"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_Contacto"
+        android:hint="Email"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="textEmailAddress"
+        android:drawableRight="@drawable/ic_email"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/Et_NovaSenha"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_NovoEmail"
+        android:hint="Senha"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_key"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/ET_ConfirmarSenha"
+        style="@style/caixatextos"
+        app:layout_constraintTop_toBottomOf="@id/Et_NovaSenha"
+        android:hint="Confirmar Senha"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:inputType="textPassword"
+        android:drawableRight="@drawable/ic_key"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Confirmar"
+        style="@style/botaoInicio"
+        android:onClick="AbrirTelaLogin"
+        android:text="Confirmar"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ET_ConfirmarSenha"
+        android:layout_marginBottom="50dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

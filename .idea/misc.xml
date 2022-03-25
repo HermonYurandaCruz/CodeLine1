@@ -4,15 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/button.xml" value="0.1805" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/caixatexto.xml" value="0.135" />
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_Book.xml" value="0.1805" />
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1505" />
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_book.xml" value="0.212" />
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_bookVerde.xml" value="0.1805" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_email.xml" value="0.203" />
         <entry key="..\:/LogoInicio/app/src/main/res/drawable/wallpaper.xml" value="0.1505" />
         <entry key="..\:/LogoInicio/app/src/main/res/layout-small/activity_main.xml" value="0.75" />
         <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_inicio.xml" value="0.33" />
-        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_login.xml" value="0.16802052159042324" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_cadastro.xml" value="0.18" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_inicio.xml" value="0.22" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_login.xml" value="0.33" />
       </map>
     </option>
   </component>
