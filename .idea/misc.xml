@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/button.xml" value="0.1805" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_Book.xml" value="0.1805" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1505" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_book.xml" value="0.212" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/ic_bookVerde.xml" value="0.1805" />
+        <entry key="..\:/LogoInicio/app/src/main/res/drawable/wallpaper.xml" value="0.1505" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout-small/activity_main.xml" value="0.75" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_inicio.xml" value="0.33" />
+        <entry key="..\:/LogoInicio/app/src/main/res/layout/activity_tela_login.xml" value="0.16802052159042324" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

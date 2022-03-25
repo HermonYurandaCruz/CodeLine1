@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaInicio">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/ic_baseline_menu_book_24"
+        />
+
+    <TextView
+        android:id="@+id/TV_Welcome"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Welcome to UniMate"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:layout_marginTop="40dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Bt_Login"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        style="@style/botaoInicio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+     app:layout_constraintTop_toBottomOf="@id/TV_Welcome"
+        android:text="LOGIN"
+        android:textColor="@color/black"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Bt_Login"
+        android:textColor="@color/black"
+        android:text="Criar uma conta..."
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:fontFamily="serif"
+
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:text="__________________"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Bt_Login"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/black"
+        />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
